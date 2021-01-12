@@ -1,0 +1,16 @@
+.Side__Container {
+  width: 300px;
+  margin-left: 80px;
+  margin-top: 20px;
+}
+
+.Side__Content {
+  color: black;
+  width: 200px;
+  margin-top: 10px;
+  margin-left: 20px;
+  background: white;
+  box-shadow: grey;
+  padding: 20px;
+  box-shadow: 5px 5px 5px #888888;
+}

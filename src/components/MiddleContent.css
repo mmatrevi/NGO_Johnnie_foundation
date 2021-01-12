@@ -1,0 +1,12 @@
+.MiddleContent__Row {
+  width: 400px;
+  margin-left: 40px;
+  padding: 20px;
+  margin-left: 35px;
+  box-shadow: 5px 5px 5px #888888;
+}
+
+.Title {
+  font-weight: bolder;
+  font-size: 20px;
+}
