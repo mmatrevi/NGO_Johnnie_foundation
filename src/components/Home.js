@@ -3,17 +3,14 @@ import "./Home.css";
 import MiddleContent from "./MiddleContent";
 import SideContent from "./SideContent";
 import Footer from "./Footer";
+import CarouselPage from "./Carousel";
 
 function Home() {
   return (
     <div className="Home">
       <div className="Home__SideContent">
         <div>
-          <img
-            className="home__image"
-            src="https://th.bing.com/th/id/OIP.ZCSIDgQxcvkFYe3TlB6WxwHaEK?w=301&h=180&c=7&o=5&pid=1.7"
-            alt=""
-          />
+          <CarouselPage />
         </div>
 
         <div className="SideContent">
