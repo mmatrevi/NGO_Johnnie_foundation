@@ -1,28 +1,19 @@
-import Nav from "./components/Nav";
-import Projects from "./components/Projects";
-import AboutUs from "./components/AboutUs";
-import Home from "./components/Home";
+import Content from "./components/Content";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
-function App() {
+const App = () => {
   return (
     <Router>
       <div className="App">
-        <Nav />
+        <Content />
         <Switch>
-          <Route path="/projects">
-            <Projects />
-          </Route>
-          <Route path="/aboutus">
-            <AboutUs />
-          </Route>
-          <Route path="/">
-            <Home />
-          </Route>
+          <Route path="/projects"></Route>
+          <Route path="/aboutus"></Route>
+          <Route path="/"></Route>
         </Switch>
       </div>
     </Router>
   );
-}
+};
 
 export default App;
